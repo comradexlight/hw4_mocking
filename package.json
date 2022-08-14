@@ -1,0 +1,33 @@
+{
+  "name": "hw4_mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comradexlight/hw4_mocking.git"
+  },
+  "author": "cxl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comradexlight/hw4_mocking/issues"
+  },
+  "homepage": "https://github.com/comradexlight/hw4_mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1"
+  }
+}
